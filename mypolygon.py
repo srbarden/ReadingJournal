@@ -1,6 +1,10 @@
+# Sarah Barden
+# functions for day 5 reading journal
+
 import turtle
 import math
 bob = turtle.Turtle()
+
 
 def square(t, length):
     for i in range(4):
@@ -30,7 +34,6 @@ def arc(t, r, angle):
     for i in range(n):
         bob.fd(step_length)
         bob.lt(step_angle)
-
 
 arc(bob, 50, 180)
 
